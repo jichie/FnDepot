@@ -16,7 +16,7 @@
   "picoclaw": {
     "display_name": "PicoClaw",
     "platform": "all",
-    "version": "0.2.7",
+    "version": "0.2.8",
     "desc": "皮皮虾，超轻量级个人 AI 助手，支持多种 LLM 提供商，比小龙虾更小、更轻快、更安全",
     "labels": "工具,AI,效率",
     "distributor": "EWEDL",
@@ -26,7 +26,7 @@
     "install_type": "系统空间",
     "size": "46",
     "download_url": "",
-    "changelog": "更新至 0.2.7\n移除 PICOCLAW_LAUNCHER_TOKEN 环境变量配置，改为首次访问 Web 控制台时进行密码初始化；\n增强 Launcher/Gateway 多主机绑定与连接稳定性，包含网络容错与多项通用修复"
+    "changelog": "更新至 0.2.8\n🚀 新特性：新增自定义OpenAI兼容端点CLI支持并移除TUI，新增MCP CLI管理命令与斜杠命令、跨平台串口硬件工具、Web前端文件下载\n✨ 体验优化：统一Reasoning与Tool Calls可见性并新增思考可见性开关，优化Prompt分层与配置保存重启提示\n🐛 Linux/通用修复：PID=1视为过期进程，优化Unix串口取消与超时轮询，修复reasoning_content持久化SQLite与配置诊断，修复Telegram/Feishu/Pico消息处理、MCP空对象参数、Web搜索fallback与Cron会话密钥传播"
   },
   "flatcms": {
     "display_name": "FlatCMS-极速建站",
