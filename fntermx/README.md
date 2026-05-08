@@ -1,11 +1,20 @@
 # FntermX - 飞牛NAS终端模拟器
 
-[![Version](https://img.shields.io/badge/version-1.0.4-blue.svg)](manifest)
+[![Version](https://img.shields.io/badge/version-1.1.3-blue.svg)](manifest)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-飞牛OS-orange.svg)](https://www.fnnas.com/)
 [![Arch](https://img.shields.io/badge/arch-x86__64-lightgrey.svg)](manifest)
 
 **FntermX** 是专为飞牛NAS平台打造的现代化Web终端应用，基于Vue3+FastAPI架构开发，提供强大的本地终端和远程SSH功能，在Web界面中呈现完整的命令行体验。
+
+## 📝 近期更新（v1.1.3）
+
+- 接入官方 WebSocket 网关，实现跨域访问。
+- 密码鉴权、终端会话、远程连接配置、自定义命令、主题配置按用户区分，实现基础独立。
+- 支持主题自动模式（自动 / 日间 / 夜间）。
+- 新增导入与导出权限限制（暂仅主管理员可执行，后续再做拆分）。
+- 修复缺少 home 目录导致的提权失败问题，并完善兼容处理。
+- 增加 ARM 适配与分包分发支持。
 
 ## ✨ 核心特性
 
@@ -34,7 +43,7 @@
 ## 📋 应用信息
 
 - **应用名称**：FntermX 终端
-- **版本**：1.0.4（远程终端持久化版）
+- **版本**：1.1.3（用户隔离与网关接入版）
 - **架构**：x86_64
 - **服务端口**：5122
 - **最低系统版本**：飞牛OS 0.9.26+
